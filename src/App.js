@@ -3,9 +3,14 @@ import './App.css';
 
 const data = [
 
-  { id: 'Tom Tom', letter: 'A', src: 'http://www.denhaku.com/r_box/sr16/sr16tom/loelectm.wav' },
-  { id: 'Bass', letter: 'S', src: 'http://billor.chsh.chc.edu.tw/sound/bass4.wav' },
-  { id: 'High Hat', letter: 'D', src: 'http://www.denhaku.com/r_box/tr707/closed.wav' }
+  { id: 'Spring', letter: 'A', src: 'https://raw.githubusercontent.com/sukhleenbolina/drumkit/master/assets/wav/1.wav' },
+  { id: 'Honk', letter: 'S', src: 'https://raw.githubusercontent.com/sukhleenbolina/drumkit/master/assets/wav/2.wav' },
+  { id: 'Cow', letter: 'D', src: 'https://raw.githubusercontent.com/sukhleenbolina/drumkit/master/assets/wav/3.wav' },
+  { id: 'Beep', letter: 'F', src: 'https://raw.githubusercontent.com/sukhleenbolina/drumkit/master/assets/wav/4.wav' },
+  { id: 'Boink', letter: 'G', src: 'https://raw.githubusercontent.com/sukhleenbolina/drumkit/master/assets/wav/5.wav' },
+  { id: 'Bounce', letter: 'H', src: 'https://raw.githubusercontent.com/sukhleenbolina/drumkit/master/assets/wav/6.wav' },
+  { id: 'WoahWoa', letter: 'I', src: 'https://raw.githubusercontent.com/sukhleenbolina/drumkit/master/assets/wav/7.wav' },
+  { id: 'Mouth Noise', letter: 'J', src: 'https://raw.githubusercontent.com/sukhleenbolina/drumkit/master/assets/wav/8.wav' },
 ]
 
 class DrumPad extends React.Component {
